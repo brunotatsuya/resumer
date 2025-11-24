@@ -33,7 +33,7 @@ class JobFinder:
         """
         Crawls job postings from LinkedIn and saves into the database.
         """
-        fetch_for = ["Software Engineer", "Software Developer"]
+        fetch_for = ["Software Developer", "Software Engineer"]
 
         self.linkedin_crawler.setup_driver()
         self.linkedin_crawler.login()

@@ -15,5 +15,5 @@ JOB_ITEM_LOCATION_LI_CLASS = "job-card-container__metadata-item"
 
 
 class LinkedinPostDateRange(Enum):
-    LAST_WEEK = "r86400"
+    LAST_WEEK = "r604800"
     LAST_MONTH = "r2592000"
